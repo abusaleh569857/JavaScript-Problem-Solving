@@ -1,3 +1,5 @@
+//Print unique values from an array
+
 let numArray = [1, 2, 4, 2, 4, 7, 9, 2, 3, 5, 7, 8, 3, 4];
 let uniqueNumber = [...new Set(numArray)];
 console.log("Original Number :", numArray);
