@@ -6,8 +6,8 @@
 
 // 'TomTimTinTik'
 
-let names = ['Tom', 'Tim', 'Tin', 'Tik'];
+let names = ["Tom", "Tim", "Tin", "Tik"];
 let name = names.toString();
-console.log(names);
-
+console.log(name);
+console.log(name.split(","));
 
