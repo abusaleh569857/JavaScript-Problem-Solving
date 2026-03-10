@@ -15,3 +15,18 @@ dog.run();
 
 const animal = new Animal();
 animal.run();
+
+
+//Global Scope 
+console.log(this); // output : {}
+
+// Object method
+const obj = {
+  name: "Rahim",
+  show: function(){
+    console.log(this);
+  }
+}
+
+obj.show(); 
+// output(browser) : {name: "Rahim", show: f}
